@@ -37,7 +37,7 @@ function calcularPared() {
     let alturaLadrillo = parseFloat(document.getElementById("alturaLadrillo").value);
 
     let areaPared = basePared * alturaPared;
-    let areaLadrillo = baseLadrillo * alturaLadrillo;
+    let areaLadrillo = (baseLadrillo/100) * (alturaLadrillo/100);
 
     let cantidadLadrillos = areaPared / areaLadrillo;
 
